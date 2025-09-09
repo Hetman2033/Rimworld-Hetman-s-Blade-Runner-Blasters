@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+  <packageId>Hetmn.BladeRunnerBlasters</packageId>
+
+  <name>Hetman's Blade Runner Blasters</name>
+
+  <author>Hetman</author>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <description>This mod aims to bring famous Blade Runner blasters to Rimworld.</description>
+
+</ModMetaData>
