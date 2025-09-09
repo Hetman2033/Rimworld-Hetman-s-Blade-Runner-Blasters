@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <DamageDef ParentName="Bullet">
+
+        <defName>BladeRunnerBlasters_2019DetectiveSpecial</defName>
+
+        <label>bullet</label>
+
+        <deathMessage>{0} has been terminally retired by a bullet from 2019 Detective Special.</deathMessage>
+
+    </DamageDef>
+
+    <DamageDef ParentName="Bullet">
+
+        <defName>BladeRunnerBlasters_2049DetectiveSpecial</defName>
+
+        <label>bullet</label>
+
+        <deathMessage>{0} has been terminally retired by a bullet from 2019 Detective Special.</deathMessage>
+
+    </DamageDef>
+
+    <DamageDef ParentName="Bullet">
+
+        <defName>BladeRunnerBlasters_Interrogator</defName>
+
+        <label>bullet</label>
+
+        <deathMessage>{0} has been terminally retired by a bullet from Interrogator.</deathMessage>
+
+    </DamageDef>
+
+</Defs>

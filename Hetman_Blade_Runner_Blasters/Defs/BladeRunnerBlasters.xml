@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="BaseHumanMakeableGun" Name="BladeRunnerBlasters_2019detectivespecial">
+
+        <defName>BladeRunnerBlasters_2019detectivespecial</defName>
+
+        <label>2019 Detective Special</label>
+
+        <description>Standard-issue blaster the Los Angeles Police Department Blade Runner Unit. The 2019 version has a bigger kick in exchange for it's bigger weight.</description>
+
+        <possessionCount>1</possessionCount>
+
+        <graphicData>
+
+        <texPath>Hetman_Blade_Runner_Blasters/2019DetectiveSpecial</texPath>
+
+        <graphicClass>Graphic_Single</graphicClass>
+
+        <drawSize>0.6</drawSize>
+
+        </graphicData>
+
+        <uiIconScale>1.2</uiIconScale>
+
+        <soundInteract>Interact_Revolver</soundInteract>
+
+        <statBases>
+
+            <WorkToMake>5000</WorkToMake>
+
+            <Mass>1.8</Mass>
+
+            <AccuracyTouch>0.85</AccuracyTouch>
+
+            <AccuracyShort>0.80</AccuracyShort>
+
+            <AccuracyMedium>0.65</AccuracyMedium>
+
+            <AccuracyLong>0.45</AccuracyLong>
+
+            <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+
+        </statBases>
+
+        <weaponTags>
+
+            <li>SimpleGun</li>
+
+            <li>2019 Detective Special</li>
+
+        </weaponTags>
+
+        <weaponClasses>
+
+            <li>RangedLight</li>
+
+        </weaponClasses>
+
+        <costList>
+
+            <Steel>150</Steel>
+
+            <ComponentIndustrial>4</ComponentIndustrial>
+
+            <Plasteel>50</Plasteel>
+
+        </costList>
+
+        <recipeMaker>
+
+            <researchPrerequisite>BladeRunnerBlastersTech</researchPrerequisite>
+
+            <skillRequirements>
+
+                <Crafting>6</Crafting>
+
+            </skillRequirements>
+
+            <displayPriority>400</displayPriority>
+
+        </recipeMaker>
+
+        <verbs>
+
+            <li>
+
+                <verbClass>Verb_Shoot</verbClass>
+
+                <hasStandardCommand>true</hasStandardCommand>
+
+                <defaultProjectile>Bullet_2019detectivespecial</defaultProjectile>
+
+                <warmupTime>0.5</warmupTime>
+
+                <range>15</range>
+
+                <soundCast>BladeRunnerBlasters_2019DetectiveSpecialShot</soundCast>
+
+                <soundCastTail>GunTail_Light</soundCastTail>
+
+                <muzzleFlashScale>10</muzzleFlashScale>
+
+            </li>
+
+        </verbs>
+
+        <tools>
+
+            <li>
+
+                <label>grip</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                </capacities>
+
+                <power>10</power>
+
+                <cooldownTime>2.5</cooldownTime>
+
+            </li>
+
+            <li>
+
+                <label>barrel</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                    <li>Poke</li>
+
+                </capacities>
+
+                <power>10</power>
+
+                <cooldownTime>3</cooldownTime>
+
+            </li>
+
+        </tools>
+
+    </ThingDef>
+
+    <ThingDef ParentName="BaseHumanMakeableGun" Name="BladeRunnerBlasters_2049detectivespecial">
+
+        <defName>BladeRunnerBlasters_2049detectivespecial</defName>
+
+        <label>2049 Detective Special</label>
+
+        <description>Standard-issue blaster the Los Angeles Police Department Blade Runner Unit. The 2049 version has a weighs much less and has bigger range in exchange for lower caliber which causes less damage to the target.</description>
+
+        <possessionCount>1</possessionCount>
+
+        <graphicData>
+
+        <texPath>Hetman_Blade_Runner_Blasters/2049DetectiveSpecial</texPath>
+
+        <graphicClass>Graphic_Single</graphicClass>
+
+        <drawSize>0.6</drawSize>
+
+        </graphicData>
+
+        <uiIconScale>1.2</uiIconScale>
+
+        <soundInteract>Interact_Revolver</soundInteract>
+
+        <statBases>
+
+            <WorkToMake>5000</WorkToMake>
+
+            <Mass>1.4</Mass>
+
+            <AccuracyTouch>0.89</AccuracyTouch>
+
+            <AccuracyShort>0.83</AccuracyShort>
+
+            <AccuracyMedium>0.7</AccuracyMedium>
+
+            <AccuracyLong>0.5</AccuracyLong>
+
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+
+        </statBases>
+
+        <weaponTags>
+
+            <li>SimpleGun</li>
+
+            <li>2049 Detective Special</li>
+
+        </weaponTags>
+
+        <weaponClasses>
+
+            <li>RangedLight</li>
+
+        </weaponClasses>
+
+        <costList>
+
+            <Steel>75</Steel>
+
+            <ComponentIndustrial>3</ComponentIndustrial>
+
+            <Plasteel>30</Plasteel>
+
+        </costList>
+
+        <recipeMaker>
+
+            <researchPrerequisite>BladeRunnerBlastersTech</researchPrerequisite>
+
+            <skillRequirements>
+
+                <Crafting>6</Crafting>
+
+            </skillRequirements>
+
+            <displayPriority>400</displayPriority>
+
+        </recipeMaker>
+
+        <verbs>
+
+            <li>
+
+                <verbClass>Verb_Shoot</verbClass>
+
+                <hasStandardCommand>true</hasStandardCommand>
+
+                <defaultProjectile>Bullet_2049detectivespecial</defaultProjectile>
+
+                <warmupTime>0.4</warmupTime>
+
+                <range>28</range>
+
+                <soundCast>BladeRunnerBlasters_2049DetectiveSpecialShot</soundCast>
+
+                <soundCastTail>GunTail_Light</soundCastTail>
+
+                <muzzleFlashScale>8</muzzleFlashScale>
+
+            </li>
+
+        </verbs>
+
+        <tools>
+
+            <li>
+
+                <label>grip</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                </capacities>
+
+                <power>8</power>
+
+                <cooldownTime>2</cooldownTime>
+
+            </li>
+
+            <li>
+
+                <label>barrel</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                    <li>Poke</li>
+
+                </capacities>
+
+                <power>8</power>
+
+                <cooldownTime>2.5</cooldownTime>
+
+            </li>
+
+        </tools>
+
+    </ThingDef>
+
+    <ThingDef ParentName="BaseHumanMakeableGun" Name="BladeRunnerBlasters_Interrogator">
+
+        <defName>BladeRunnerBlasters_Interrogator</defName>
+
+        <label>Interrogator</label>
+
+        <description>New prototype blaster the Los Angeles Police Department Blade Runner Unit. Interrogator is capable of firing 2 shots at once.</description>
+
+        <possessionCount>1</possessionCount>
+
+        <graphicData>
+
+        <texPath>Hetman_Blade_Runner_Blasters/Interrogator</texPath>
+
+        <graphicClass>Graphic_Single</graphicClass>
+
+        <drawSize>0.6</drawSize>
+
+        </graphicData>
+
+        <uiIconScale>1.2</uiIconScale>
+
+        <soundInteract>Interact_Revolver</soundInteract>
+
+        <statBases>
+
+            <WorkToMake>5000</WorkToMake>
+
+            <Mass>1.6</Mass>
+
+            <AccuracyTouch>0.85</AccuracyTouch>
+
+            <AccuracyShort>0.76</AccuracyShort>
+
+            <AccuracyMedium>0.65</AccuracyMedium>
+
+            <AccuracyLong>0.45</AccuracyLong>
+
+            <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+
+        </statBases>
+
+        <weaponTags>
+
+            <li>SimpleGun</li>
+
+            <li>Interrogator</li>
+
+        </weaponTags>
+
+        <weaponClasses>
+
+            <li>RangedLight</li>
+
+        </weaponClasses>
+
+        <costList>
+
+            <Steel>100</Steel>
+
+            <ComponentIndustrial>3</ComponentIndustrial>
+
+            <Plasteel>45</Plasteel>
+
+        </costList>
+
+        <recipeMaker>
+
+            <researchPrerequisite>BladeRunnerBlastersTech</researchPrerequisite>
+
+            <skillRequirements>
+
+                <Crafting>6</Crafting>
+
+            </skillRequirements>
+
+            <displayPriority>400</displayPriority>
+
+        </recipeMaker>
+
+        <verbs>
+
+            <li>
+
+                <verbClass>Verb_Shoot</verbClass>
+
+                <hasStandardCommand>true</hasStandardCommand>
+
+                <defaultProjectile>Bullet_Interrogator</defaultProjectile>
+
+                <warmupTime>0.6</warmupTime>
+
+                <range>27</range>
+
+                <burstShotCount>2</burstShotCount>
+
+                <soundCast>BladeRunnerBlasters_Interrogator</soundCast>
+
+                <soundCastTail>GunTail_Light</soundCastTail>
+
+                <muzzleFlashScale>9</muzzleFlashScale>
+
+            </li>
+
+        </verbs>
+
+        <tools>
+
+            <li>
+
+                <label>grip</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                </capacities>
+
+                <power>9</power>
+
+                <cooldownTime>2.3</cooldownTime>
+
+            </li>
+
+            <li>
+
+                <label>barrel</label>
+
+                <capacities>
+
+                    <li>Blunt</li>
+
+                    <li>Poke</li>
+
+                </capacities>
+
+                <power>9</power>
+
+                <cooldownTime>2.8</cooldownTime>
+
+            </li>
+
+        </tools>
+
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+
+        <defName>Bullet_2019detectivespecial</defName>
+
+        <label>2019 Detective Special bullet</label>
+
+        <graphicData>
+
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+
+        <projectile>
+
+        <damageDef>BladeRunnerBlasters_2019DetectiveSpecial</damageDef>
+
+        <damageAmountBase>14</damageAmountBase>
+
+        <stoppingPower>4</stoppingPower>
+
+        <speed>65</speed>
+
+        </projectile>
+  
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+
+        <defName>Bullet_2049detectivespecial</defName>
+
+        <label>2049 Detective Special bullet</label>
+
+        <graphicData>
+
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+
+        <projectile>
+
+        <damageDef>BladeRunnerBlasters_2049DetectiveSpecial</damageDef>
+
+        <damageAmountBase>12</damageAmountBase>
+
+        <stoppingPower>2</stoppingPower>
+
+        <speed>75</speed>
+
+        </projectile>
+  
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+
+        <defName>Bullet_Interrogator</defName>
+
+        <label>Interrogator bullet</label>
+
+        <graphicData>
+
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+
+        <projectile>
+
+        <damageDef>BladeRunnerBlasters_Interrogator</damageDef>
+
+        <damageAmountBase>13</damageAmountBase>
+
+        <stoppingPower>3</stoppingPower>
+
+        <speed>68</speed>
+
+        </projectile>
+  
+    </ThingDef>
+
+</Defs>

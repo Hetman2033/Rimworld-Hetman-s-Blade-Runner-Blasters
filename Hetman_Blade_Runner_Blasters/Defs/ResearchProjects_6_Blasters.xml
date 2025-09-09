@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ResearchProjectDef>
+
+        <defName>BladeRunnerBlastersTech</defName>
+
+        <label>Blade Runner Blasters</label>
+
+        <description>Research Blade Runner Blasters and use them to terminally retire your enemies!</description>
+
+        <tab>BladeRunnerBlastersTab</tab>
+
+        <baseCost>800</baseCost>
+
+        <techLevel>Industrial</techLevel>
+
+        <researchViewX>0.00</researchViewX>
+
+        <researchViewY>0.00</researchViewY>
+
+        <prerequisites>
+
+            <li>MicroelectronicsBasics</li>
+
+        </prerequisites>
+
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+
+    </ResearchProjectDef>
+
+</Defs>

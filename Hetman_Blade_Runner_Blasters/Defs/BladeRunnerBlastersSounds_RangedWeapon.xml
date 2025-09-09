@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <SoundDef>
+
+        <defName>BladeRunnerBlasters_2019DetectiveSpecialShot</defName>
+
+        <context>MapOnly</context>
+
+        <subSounds>
+
+            <li>
+
+                <grains>
+
+                    <li Class="AudioGrain_Clip">
+
+                        <clipPath>BlasterSounds/BRBLSound</clipPath>
+
+                    </li>
+
+                </grains>
+
+                <volumeRange>40~45</volumeRange>
+
+                
+
+            </li>
+
+        </subSounds>
+
+    </SoundDef>
+
+    <SoundDef>
+
+        <defName>BladeRunnerBlasters_2049DetectiveSpecialShot</defName>
+
+        <context>MapOnly</context>
+
+        <subSounds>
+
+            <li>
+
+                <grains>
+
+                    <li Class="AudioGrain_Clip">
+
+                        <clipPath>BlasterSounds/BRBLSound</clipPath>
+
+                    </li>
+
+                </grains>
+
+                <volumeRange>40~45</volumeRange>
+
+                
+
+            </li>
+
+        </subSounds>
+
+    </SoundDef>
+
+    <SoundDef>
+
+        <defName>BladeRunnerBlasters_Interrogator</defName>
+
+        <context>MapOnly</context>
+
+        <subSounds>
+
+            <li>
+
+                <grains>
+
+                    <li Class="AudioGrain_Clip">
+
+                        <clipPath>BlasterSounds/BRBLSound</clipPath>
+
+                    </li>
+
+                </grains>
+
+                <volumeRange>40~45</volumeRange>
+
+                
+
+            </li>
+
+        </subSounds>
+
+    </SoundDef>
+
+</Defs>

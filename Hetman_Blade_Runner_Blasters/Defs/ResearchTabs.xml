@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ResearchTabDef>
+
+    <defName>BladeRunnerBlastersTab</defName>
+
+    <label>Blade Runner Blasters</label>
+
+    <generalTitle>Blade Runner Blasters</generalTitle>
+
+    <generalDescription>Unlock Blade Runner Blasters by researching at a research bench.</generalDescription>
+
+  </ResearchTabDef>
+
+</Defs>
